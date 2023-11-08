@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Adopta un amigo</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">AdoptaPets</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Conoce más de nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Donaciones</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contáctanos</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+
+<div class="container mt-5">
+    <h1 class="text-center mb-4">Adopta un amigo</h1>
+    <div class="row">
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="../Img/perro1.jpg" class="card-img-top adopt-image" alt="Perro 1">
+                <div class="card-body">
+                    <h5 class="card-title">Toby</h5>
+                    <div class="collapse" id="perro1Info">
+                        <div class="card card-body">
+                            Nombre: Toby<br>
+                            Edad: 3 años<br>
+                            Raza: Golden<br>
+                            Descripción: Perro juguetón y amigable en busca de un hogar amoroso.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="../Img/gato1.png" class="card-img-top adopt-image" alt="Gato 1">
+                <div class="card-body">
+                    <h5 class="card-title">Mathias</h5>
+                    <div class="collapse" id="gato1Info">
+                        <div class="card card-body">
+                            Nombre: Mathias<br>
+                            Edad: 3 meses<br>
+                            Raza: Naranja<br>
+                            Descripción: Gato juguetón y amigable en busca de un hogar amoroso.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="../Img/perro2.jpg" class="card-img-top adopt-image" alt="Perro 2">
+                <div class="card-body">
+                    <h5 class="card-title">Rob</h5>
+                    <div class="collapse" id="perro2Info">
+                        <div class="card card-body">
+                            Nombre: Rob<br>
+                            Edad: 3 años<br>
+                            Raza: Bernes<br>
+                            Descripción: Perro inquieto y amigable en busca de un hogar amoroso.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="../Img/gato2.jpg" class="card-img-top adopt-image" alt="Gato 2">
+                <div class="card-body">
+                    <h5 class="card-title">Manchas</h5>
+                    <div class="collapse" id="gato2Info">
+                        <div class="card card-body">
+                            Nombre: Manchas<br>
+                            Edad: 6 años<br>
+                            Raza: Gris<br>
+                            Descripción: Gato tranquilo y amigable en busca de un hogar amoroso.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="../Img/perro3.jpg" class="card-img-top adopt-image" alt="Perro 3">
+                <div class="card-body">
+                    <h5 class="card-title">Hashi</h5>
+                    <div class="collapse" id="perro3Info">
+                        <div class="card card-body">
+                            Nombre: Hashi<br>
+                            Edad: 3 años<br>
+                            Raza: Pug<br>
+                            Descripción: Perro juguetón y amigable en busca de un hogar amoroso.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <div>
+        <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+        <df-messenger
+            intent="WELCOME"
+            chat-title="FabianBot"
+            agent-id="7418f407-1eb2-4fbd-afe3-6d261c0ca27c"
+            language-code="es"
+        ></df-messenger>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
